@@ -100,6 +100,7 @@ function askForManagerInfo() {
     return inquirer
         .prompt(managerQuestions)
         .then((answers) => {
+            addToHTML(answers);
             decide(answers)
         })
         .catch((error) => {
@@ -125,6 +126,7 @@ function askForEngineerInfo() {
     return inquirer
         .prompt(engineerQuestions)
         .then((answers) => {
+            addToHTML(answers);
             decide(answers)
         })
         .catch((error) => {
@@ -140,6 +142,7 @@ function askForInternInfo() {
     return inquirer
         .prompt(internQuestions)
         .then((answers) => {
+            addToHTML(answers);
             decide(answers)
         })
         .catch((error) => {
@@ -149,4 +152,8 @@ function askForInternInfo() {
                 console.log(error)
             }
         })
+}
+
+function addToHTML(answers) {
+    
 }
