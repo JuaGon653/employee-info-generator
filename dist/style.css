@@ -17,18 +17,21 @@ h1 {
 
 #employee-container {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
     min-height: 87vh;
     padding: 50px;
 }
 ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
     list-style: none;
 }
 li {
-    height: 300px;
-    width: 250px;
     display: inline-block;
+    min-width: 400px;
     padding: 10px;
 }
 .top-box {
@@ -46,6 +49,8 @@ h3 {
 }
 
 .bottom-box {
+    display: block;
+    justify-content: space-around;
     width: 100%;
     height: 175px;
     background-color: darkgrey;
