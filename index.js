@@ -4,7 +4,6 @@ const Engineer = require('./lib/engineer');
 const Intern = require('./lib/intern');
 const fs = require('fs');
 let employeeArr = [];
-let someArr = [];
 
 const managerQuestions = [
     {
@@ -174,7 +173,7 @@ function createHTML() {
                         <h4>Email: ${employeeArr[i].email}</h4>
                         <h4>Office Number: ${employeeArr[i].officeNum}</h4>
                     </div>
-                </li>`
+                </li>\n`
         } else if (employeeArr[i].github) {
             employeeList += 
                 `<li>
@@ -188,7 +187,7 @@ function createHTML() {
                         <h4>Email: ${employeeArr[i].email}</h4>
                         <h4>GitHub Username: ${employeeArr[i].github}</h4>
                     </div>
-                </li>`
+                </li>\n`
         } else {
             employeeList += 
                 `<li>
@@ -200,9 +199,9 @@ function createHTML() {
                     <div class="bottom-box">
                         <h4>ID: ${employeeArr[i].id}</h4>
                         <h4>Email: ${employeeArr[i].email}</h4>
-                        <h4>Office Number: ${employeeArr[i].school}</h4>
+                        <h4>School: ${employeeArr[i].school}</h4>
                     </div>
-                </li>`
+                </li>\n`
         }
     }
     
