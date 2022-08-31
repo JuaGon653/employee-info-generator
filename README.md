@@ -7,3 +7,12 @@ For my 10th challenge in the coding boot camp, I created an employee information
 ## How to Use Video Link
 
 [Video](https://vimeo.com/744641925)
+
+## Photos
+### Prompts
+![prompts](https://user-images.githubusercontent.com/106782112/187749320-403b0b4f-3cf2-4fba-860c-770354bec1fc.png)
+
+### Rendered HTML
+
+![rendered](https://user-images.githubusercontent.com/106782112/187749543-8fc59f80-4638-42b8-9da6-6a445198ef24.png)
+
